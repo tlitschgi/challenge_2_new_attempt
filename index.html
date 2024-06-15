@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>tlitschgi Website</title>
+    <!--vertical lines to separate section headers from content-->
+    <style>
+      .vline1 {
+        border-right: 3px solid var(--darkblue);
+        height: 200px;
+        margin-right: 10px;
+      }
+      .vline2 {
+        border-right: 3px solid var(--darkblue);
+        height: 390px;
+        margin-right: 10px;
+      }
+      .vline3 {
+        border-right: 3px solid var(--darkblue);
+        height: 90px;
+        margin-right: 10px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--header contains my picture and name-->
+    <header>
+      <div class="photo">
+        <img src="./assets/images/myPic.png" alt="my picture" />
+      </div>
+      <div>
+        <h1>Tracey Litschgi</h1>
+      </div>
+      <!--navbar to navigate to the three sections in the page-->
+      <nav>
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!--about me section consisting of a little detail about me-->
+      <section class="about-section">
+        <h2 id="about-me">About Me</h2>
+        <div class="vline1"></div>
+        <p>
+          As a Technology professional for 31 years, I am highly versatile with
+          analysis, development, and database experience. I have served in a
+          variety of roles including business analyst, lead developer, and
+          development/support team member. I possess very strong personal
+          management skills emphasizing communication, leadership,
+          organizational, and time management.<br /><br />Currently, I am
+          attending boot camp to learn web development in a effort to expand my
+          skill set as a Technology professional. <br /><br />
+        </p>
+      </section>
+      <!--work section with links to two projects and rest are placeholders-->
+      <section class="work-section">
+        <h3 id="work">Work</h3>
+        <div class="vline2"></div>
+        <div class="images">
+          <div class="ch1-image" style="position: relative">
+            <a
+              href="https://tlitschgi.github.io/challenge_1"
+              style="display: block"
+            >
+              <img src="./assets/images/ch1.png" alt="Challenge 1 image" />
+              <p
+                style="
+                  position: absolute;
+                  top: 40%;
+                  left: 40%;
+                  transform: translate(-50%, -50%);
+                  background: rgba(255, 255, 255, 0.7);
+                  padding: 5px;
+                "
+              >
+                <strong>Click here for the Horiseon Website</strong>
+              </p>
+            </a>
+          </div>
+
+          <div>
+            <div class="row">
+              <div class="column">
+                <div class="ch3-image" style="position: relative">
+                  <a
+                    href="https://tlitschgi.github.io/challenge_3"
+                    style="display: block"
+                  >
+                    <img
+                      src="./assets/images/ch3.png"
+                      alt="Challenge 3 image"
+                    />
+                    <p
+                      style="
+                        position: absolute;
+                        top: 40%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        background: rgba(255, 255, 255, 0.7);
+                        padding: 5px;
+                        text-align: center;
+                      "
+                    >
+                      <strong
+                        >Click here for the Employee Payroll Tracker</strong
+                      >
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div class="column">
+                <div class="pl1-image">
+                  <img
+                    src="./assets/images/pl1.png"
+                    alt="Placeholder 1 image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="column">
+              <div class="pl2-image" style="position: relative">
+                <img src="./assets/images/pl2.png" alt="Placeholder 2 image" />
+              </div>
+            </div>
+            <div class="column">
+              <div class="pl3-image">
+                <img src="./assets/images/pl3.png" alt="Placeholder 3 image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--contact me section with ways of connecting with me-->
+      <section>
+        <nav class="contact-section">
+          <h4 id="contact-me">Contact Me</h4>
+          <div class="vline3"></div>
+          <div>
+            <ul>
+              <li><a href="tel:3142657828"></a>314-265-7825</li>
+              <li><a href="mailto:tlitschgi@att.net">tlitschgi@att.net</a></li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/tracey-litschgi-6a60a416/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BFvMxR3oNRKK0kZ3qfgXmiA%3D%3D"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </section>
+    </main>
+  </body>
+</html>
