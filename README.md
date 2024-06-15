@@ -4,7 +4,7 @@ The purpose of this website is to build a portfolio page about myself.
 
 Building this portfolio allows me to apply the lessons learned during the coding bootcamp classes.
 
-At the top left of the page is a picture of me.  The header background is light steel blue background with my name in dark blue to the right of the picture. On the right, are three clickable links..."About Me," "Work," and "Contact Me" "Resume" in dark blue.
+At the top left of the page is a picture of me.  The header background is light steel blue background with my name in dark blue to the right of the picture. On the right, are three clickable links..."About Me," "Work," and "Contact Me" "Resume" in light blue.
 
 Beneath the header are three sections, 1) About Me, 2) Work and 3) Contact Me. They are titled on the left side of the page in dark blue with a font size of 24. After each title, there is a dark blue vertical bar to separate the title from the content that relates to the title.
 
